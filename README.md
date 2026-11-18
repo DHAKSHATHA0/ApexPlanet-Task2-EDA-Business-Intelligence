@@ -1,41 +1,67 @@
-ApexPlanet-Task2-EDA-Business-Intelligence
+
 # ApexPlanet Task 2 – Exploratory Data Analysis & Business Intelligence
 
 ## Project Overview
+This project is part of the ApexPlanet 60-Day Data Analytics Internship.
 
-This project focuses on Exploratory Data Analysis (EDA) and Business Intelligence using a sales dataset. The objective is to identify patterns, trends, relationships, and meaningful business insights through statistical analysis, data visualization, and SQL queries.
+The objective is to explore sales data, identify patterns and trends, answer business questions using SQL, and develop a business intelligence dashboard.
 
-## Objectives
+## Dataset
+**Dataset:** ApexPlanet Sales Dataset
 
-- Perform descriptive statistical analysis.
-- Conduct univariate analysis using visualizations.
-- Explore relationships between numerical and categorical variables.
-- Answer business questions using SQL.
-- Develop a static business intelligence dashboard mock-up.
+**Records:** 1,000 rows
 
-## Technology Stack
+**Features:** 12 columns
 
-| Tool | Purpose |
-|---|---|
-| Python | Data analysis |
-| Pandas | Data manipulation |
-| NumPy | Numerical operations |
-| Matplotlib | Data visualization |
-| Seaborn | Statistical visualization |
-| Google Colab | EDA environment |
-| MySQL | Business queries and data extraction |
-| GitHub | Project documentation |
+The dataset includes order details, customer information, product categories, quantities, unit prices, and total sales.
 
-## Dataset Information
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- MySQL
+- Power BI
 
-- Dataset: Cleaned Sales Dataset
-- Records: 1,000
-- Attributes: 12
-- Source: ApexPlanet Internship Task 1
+## Project Tasks
 
-### Dataset Attributes
+### 1. Descriptive Statistics & Univariate Analysis
+- Summary statistics
+- Numerical and categorical analysis
+- Histograms and bar charts
+- Distribution analysis
 
-Order_ID, Order_Date, Customer_ID, Customer_Name, Age, Gender, City, Product, Category, Quantity, Unit_Price, Total_Sales.
+### 2. SQL for Business Analysis
+- Sales performance analysis
+- Product-wise revenue
+- City-wise revenue
+- Category contribution
+- High-value orders
+- Gender-wise sales
+- Top customers
+
+### 3. Multivariate Analysis
+- Correlation matrix
+- Correlation heatmap
+- Scatter plots
+- Pair plots
+- Category-wise sales analysis
+
+### 4. Business Intelligence Dashboard
+Created an interactive Power BI dashboard featuring:
+- Total Revenue
+- Unique Orders
+- Total Quantity
+- Average Order Value
+- Average Unit Price
+- Product-wise revenue
+- City-wise revenue
+- Category contribution
+- Monthly revenue trend
+- Gender-wise revenue
+- Interactive slicers
+``
 
 ## Project Structure
 
@@ -45,7 +71,7 @@ ApexPlanet-Task2-EDA-Business-Intelligence/
 ├── dataset/
 ├── notebooks/
 ├── sql/
-├── results/
+├── task2/
 ├── dashboard/
 └── README.md
 ```
@@ -88,12 +114,13 @@ ApexPlanet-Task2-EDA-Business-Intelligence/
 - Static dashboard mock-up.
 - Project documentation.
 
-## Internship
-
-**Organization:** ApexPlanet Software Pvt. Ltd.  
-**Program:** 60-Day Data Analytics Internship  
-**Task:** Task 2 – Exploratory Data Analysis & Business Intelligence
-
 ---
+
+## Key Learning Outcomes
+- Exploratory Data Analysis
+- SQL querying and aggregation
+- Data visualization
+- Business insight generation
+- Power BI dashboard development
 
 *This project is part of my Data Analytics internship learning journey.*
